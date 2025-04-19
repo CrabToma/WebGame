@@ -1,7 +1,7 @@
 <?php
 function sql_req( $query )
 {
-	$link = mysqli_connect('localhost', 'root', '', 'cl113afrv');
+	$link = mysqli_connect('localhost', 'root', '', 'base');
 	$resource = mysqli_query($link, $query);
 	if ($link === false)
 	{
